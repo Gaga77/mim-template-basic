@@ -1,0 +1,58 @@
+.title {
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+
+.error {
+    color: firebrick;
+}
+
+.success {
+    color: forestgreen;
+}
+
+.input {
+    height: 34px;
+    padding: 5px;
+    border: 1px solid rgb(72, 121, 123);
+}
+
+.btn {
+    height: 34px;
+    padding: 5px;
+    border: 1px solid rgb(72, 121, 123);
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    background: rgb(72, 121, 123);
+}
+
+.page {
+    padding: 20px;
+}
+
+.resultat {
+    padding: 20px;
+    border: 1px solid rgb(72, 121, 123);
+    max-width: 220px;
+    border-radius: .3rem;
+    margin-top: 10px;
+}
+
+.nav-main .item {
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: cadetblue;
+    border-right: 2px solid white;
+}
+
+.nav-main .item:hover {
+    background: silver;
+}

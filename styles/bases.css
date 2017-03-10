@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.col, .row {
+    -webkit-display: flex;
+    display: flex;
+}
+
+.col {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
